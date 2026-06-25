@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interactive Quiz & Joke Generator</title>
+<link rel="stylesheet" href="task3.css">
+</head>
+<body>
+
+<h1>Interactive Quiz & Joke Generator</h1>
+
+<div class="quiz-container">
+    <h2>Java Quiz</h2>
+
+    <h3 id="question"></h3>
+
+    <button class="option"></button>
+    <button class="option"></button>
+    <button class="option"></button>
+    <button class="option"></button>
+
+    <div class="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+
+    <p id="result"></p>
+
+    <button id="nextBtn">Next Question</button>
+</div>
+
+<div class="joke-container">
+    <h2>Random Joke API</h2>
+    <p>Click button to get a joke</p>
+
+    <button onclick="getJoke()">Get Joke</button>
+
+    <p id="joke"></p>
+</div>
+
+<script src="task3.js"></script>
+
+</body>
+</html>
